@@ -3,7 +3,7 @@
   <rect width="400" height="400" fill="lightblue" />
   
   <!-- Embed an external image -->
-  <image x="0" y="0" width="150" height="150" xlink:href="https://raw.githubusercontent.com/BlueHephaestus/mooncoin/refs/heads/main/000.png" />
+  <image id="image" x="0" y="0" width="150" height="150" xlink:href="https://raw.githubusercontent.com/BlueHephaestus/mooncoin/refs/heads/main/000.png" />
   <defs>
     <pattern id="imagePattern" patternUnits="userSpaceOnUse" width="150" height="150">
       <image href="https://raw.githubusercontent.com/BlueHephaestus/mooncoin/refs/heads/main/000.png" x="0" y="0" width="150" height="150" />
