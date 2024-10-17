@@ -1,9 +1,11 @@
 {
-   "name":"Name4",
-   "symbol":"SYM4",
-   "description":"This is the fourth description",
-   "image":"https://raw.githubusercontent.com/BlueHephaestus/mooncoin/refs/heads/main/imgs/3.png",
+   "name":"Lunar 🌙",
+   "symbol":"LUNAR",
+   "description":"🌑🌒🌓🌔🌕🌖🌗🌘🌑",
+   "image":"https://raw.githubusercontent.com/BlueHephaestus/mooncoin/refs/heads/main/moon.png",
    "showName":true,
-   "createdOn":"https://moon.fun",
-   "website":"website4.com"
+   "createdOn":"https://pump.moon",
+   "twitter":"https://x.com/moonphasesolana",
+   "telegram":"https://t.me/+veBeS2j52ihmMjcx",
+   "website":"https://theskylive.com/moon-info"
 }
