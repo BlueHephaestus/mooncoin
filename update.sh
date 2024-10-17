@@ -12,7 +12,8 @@ python3.11 main.py
 git add moon.png
 
 # Commit the file with a message
-git commit -m "Auto update $(date)"
+today=$(date + "%Y-%m-%d")
+git commit -m "Auto update $today"
 
 # Push to the GitHub repository
 git push origin main
