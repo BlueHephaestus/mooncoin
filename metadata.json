@@ -1,9 +1,9 @@
 {
-   "name":"Name3",
-   "symbol":"SYM3",
-   "description":"This is the third description",
+   "name":"Name4",
+   "symbol":"SYM4",
+   "description":"This is the fourth description",
    "image":"https://raw.githubusercontent.com/BlueHephaestus/mooncoin/refs/heads/main/imgs/3.png",
    "showName":true,
    "createdOn":"https://moon.fun",
-   "website":"website3.com"
+   "website":"website4.com"
 }
