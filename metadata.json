@@ -1,9 +1,9 @@
 {
-   "name":"Name1",
-   "symbol":"SYM1",
-   "description":"This is the first description",
-   "image":"https://raw.githubusercontent.com/BlueHephaestus/mooncoin/refs/heads/main/moon.png",
+   "name":"Name2",
+   "symbol":"SYM2",
+   "description":"This is the second description",
+   "image":"https://raw.githubusercontent.com/BlueHephaestus/mooncoin/refs/heads/main/imgs/1.png",
    "showName":true,
-   "createdOn":"https://pump.fun",
-   "website":"website1.com"
+   "createdOn":"https://moon.fun",
+   "website":"website2.com"
 }
