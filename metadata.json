@@ -1,11 +1,1 @@
-{
-   "name":"Lunar 🌙",
-   "symbol":"LUNAR",
-   "description":"🌑🌒🌓🌔🌕🌖🌗🌘🌑",
-   "image":"https://raw.githubusercontent.com/BlueHephaestus/mooncoin/refs/heads/main/moon.png",
-   "showName":true,
-   "createdOn":"https://pump.moon",
-   "twitter":"https://x.com/moonphasesolana",
-   "telegram":"https://t.me/+veBeS2j52ihmMjcx",
-   "website":"https://theskylive.com/moon-info"
-}
+{"name": "Lunar \ud83c\udf16", "symbol": "LUNAR", "description": "\ud83c\udf11\ud83c\udf12\ud83c\udf13\ud83c\udf14\ud83c\udf15\ud83c\udf16\ud83c\udf17\ud83c\udf18\ud83c\udf11", "image": "https://raw.githubusercontent.com/BlueHephaestus/mooncoin/refs/heads/main/moon.png", "showName": true, "createdOn": "https://pump.moon", "twitter": "https://x.com/moonphasesolana", "telegram": "https://t.me/+veBeS2j52ihmMjcx", "website": "https://theskylive.com/moon-info"}
