@@ -86,27 +86,35 @@ def get_moon_data(mp):
     # Get desc and icon index
     if mp == 0:
         desc = "New Moon 🌑"
+        emoji = "🌑"
         icon_i = 0
     elif 0 < mp < 0.25:
         desc = "Waxing Crescent 🌒"
+        emoji = "🌒"
         icon_i = 2
     elif mp == 0.25:
         desc = "First Quarter 🌓"
+        emoji = "🌓"
         icon_i = 4
     elif 0.25 < mp < 0.5:
         desc = "Waxing Gibbous 🌔"
+        emoji = "🌔"
         icon_i = 6
     elif mp == 0.5:
         desc = "Full Moon 🌕"
+        emoji = "🌕"
         icon_i = 8
     elif 0.5 < mp < 0.75:
         desc = "Waning Gibbous 🌖"
+        emoji = "🌖"
         icon_i = 10
     elif mp == 0.75:
         desc = "Last Quarter 🌗"
+        emoji = "🌗"
         icon_i = 12
     else:# 0.75 < mp < 1.0
         desc = "Waning Crescent 🌘"
+        emoji = "🌘"
         icon_i = 14
 
     """
@@ -125,7 +133,7 @@ def get_moon_data(mp):
 
     # Return icon, banner, desc
 
-    return icon, banner, desc
+    return icon, banner, emoji, desc
 
     # print(f"{mp}, {desc}, {ill}%")
 
@@ -207,7 +215,7 @@ for date, mp in data:
 
 # Save this to a file
 with open("lookup.json", "w") as f:
-    json.dump(lookup, f, indent=4)
+    json.dump(lookup, f, ensure_ascii=False, indent=4)
 
 
 

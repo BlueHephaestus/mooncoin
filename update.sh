@@ -5,11 +5,12 @@ MOON_DIR=/home/blue/Projects/mooncoin
 
 cd $MOON_DIR
 
-# Update the file
+# Update the files
 python3.11 main.py
 
-# Stage the file
+# Stage the files
 git add moon.png
+git add metadata.json
 
 # Commit the file with a message
 today=$(date +"%Y-%m-%d")
