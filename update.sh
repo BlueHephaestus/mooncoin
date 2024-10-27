@@ -8,6 +8,9 @@ cd $MOON_DIR
 # Update the files
 python3.11 main.py
 
+# Update the channel image.
+python3.11 update_tg_channel.py
+
 # Stage the files
 git add moon.png
 git add metadata.json
